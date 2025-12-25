@@ -54,8 +54,6 @@ A **UI version using DOM** will be added in future updates.
 ```bash
 git clone https://github.com/your-username/grade-reporting-system.git
 2️⃣ Move into the project folder
-bash
 cd grade-reporting-system
 3️⃣ Run the program
-bash
 node index.js
