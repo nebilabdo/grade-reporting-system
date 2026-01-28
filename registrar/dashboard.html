@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/sidebar.css" />
+    <!-- Font Awesome Free CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="side-bar">
+     <a href="dashboard.html" class="sidebar-item active">Dashboard</a>
+      <a href="application.html" class="sidebar-item">Applications</a>
+
+      <a href="students.html" class="sidebar-item">Students</a>
+    <a href="departements.html" class="sidebar-item">Departements</a>
+
+   <a href="courses.html" class="sidebar-item">Courses</a>
+    <a href="teachers.html" class="sidebar-item">Teachers</a>
+    </div>
+    <div class="pageContent">
+      <h1>Registerar Dashboard</h1>
+
+      <div class="cardContainer">
+        <div class="totalStudents">
+          <h3>total students </h3>
+          <i class="fas fa-user-graduate"></i>
+          <h3>435</h3>
+        </div>
+        <div class="pendingApplication">
+          <h3>Pending </h3>
+          <i class="fas fa-hourglass-half"></i>
+          <h3>45</h3>
+        </div>
+        <div class="totalTeachers">
+          <h3>total teachers</h3>
+          <i class="fas fa-chalkboard-teacher"></i>
+          <h3>45</h3>
+        </div>
+        <div class="rejectedApplication">
+          <h3>Rejected</h3>
+          <i class="fas fa-times-circle"></i>
+          <h3>554</h3>
+        </div>
+        <div class="freshman">
+          <h4>freshman Courses </h4>
+          <i class="fas fa-book"></i>
+          <h4>554</h4>
+        </div>
+        <div class="departements">
+          <h4>Number of departements</h4>
+          <i class="fas fa-building"></i>
+          <h4>554</h4>
+        </div>
+        <div class="graduated">
+          <h4>graduated Students</h4>
+          <i class="fas fa-user-graduate"></i>
+          <h4>554</h4>
+        </div>
+      </div>
+      <div class="filter"><label for="filter">Search </label>
+      <input type="search" placeholder="Filter by status pending" id="filter" /></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

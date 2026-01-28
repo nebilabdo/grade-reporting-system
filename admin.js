@@ -79,7 +79,6 @@ async function cumulativeGPACalculator(result) {
       0,
     );
   }
-  console.log(totalPoint);
   return totalPoint / totalCredit;
 }
 async function display() {
@@ -178,8 +177,11 @@ async function display() {
                 btn.addEventListener("mouseleave", () => {
                   btn.style.background = "none";
                 });
-                 btn.addEventListener("click", () => {
-                  btn.style.background = "none";
+                btn.addEventListener("click", () => {
+                  console.log(filteredScore);
+                  const detailsTable=document.createElement('table');
+                  const tHead=document.createElement('head');
+                  const th=document.createElement('th');
                 });
 
                 td.append(btn);

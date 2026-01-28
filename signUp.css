@@ -1,0 +1,19 @@
+body{
+ display:flex;
+ justify-content: center;
+ height: 95vh;
+ align-items: center;
+}
+
+.registerForm{
+    width:300px;
+    border:1px solid orange;
+    padding: 30px;
+    border-radius: 5px;
+}
+.fullName,.email,.password{
+    width:100%
+}
+button {
+    margin-left: 250px;
+}
